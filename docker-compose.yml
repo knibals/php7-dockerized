@@ -22,7 +22,7 @@ services:
       - code
 
   mysql:
-    image: mysql
+    image: mariadb:10.2
     ports:
       - "33061:3306"
       - "3306:3306"
