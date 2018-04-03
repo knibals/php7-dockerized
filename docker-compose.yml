@@ -35,7 +35,3 @@ services:
     image: busybox
     volumes:
       - ./www:/var/www
-
-# COPY conf/my.cnf /etc/mysql/my.cnf
-# - ./conf/php.ini:/etc/php/7.1/fpm/conf.d/40-custom.ini
-# command: /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf
